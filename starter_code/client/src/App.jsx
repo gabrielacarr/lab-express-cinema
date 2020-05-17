@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import { Switch, Route } from "react-router-dom";
 import Movies from "./components/Movies";
 import Movie from "./components/Movie";
-
+// import 
 class App extends Component {
   render() {
     return (
@@ -16,6 +16,9 @@ class App extends Component {
             render={(props) => <Movies {...props} />}
           />
           <Route
+            
+             
+             
             exact
             path="/movies/:id"
             render={(props) => <Movie {...props} />}
